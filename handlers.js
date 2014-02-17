@@ -3,7 +3,7 @@ exports.index = function(req, res) {
 }
 
 var watchf = function(req, res) {
-	var video_id = req.query.v;
+	var video_id = 'http://www.youtube.com/watch?v=q3bGYljQ5Uw';
 	res.render('watch', { id: video_id }, function(err, html) {
 		res.send(html);
 	})
