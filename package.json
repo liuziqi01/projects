@@ -1,8 +1,8 @@
 {
-	"name": "homework4-zl4kh",
+	"name": "homework4-zl3kh",
 	"description": "Doing this in class",
 	"version": "0.0.1",
-	"author": "Ziqi",
+	"author": "Ziqi Liu",
 	"engines": {
 		"node": "0.10.x",
 		"npm": "1.3.x"

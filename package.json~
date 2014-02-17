@@ -1,8 +1,8 @@
 {
-	"name": "homework4-zl4kh",
+	"name": "Class4Tutorial",
 	"description": "Doing this in class",
 	"version": "0.0.1",
-	"author": "Ziqi",
+	"author": "Michael Paris",
 	"engines": {
 		"node": "0.10.x",
 		"npm": "1.3.x"
