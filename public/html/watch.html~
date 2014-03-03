@@ -80,12 +80,12 @@
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img data-src="holder.js/300x200" alt="...">
+            <iframe  src="//www.youtube.com/embed/q3bGYljQ5Uw" frameborder="0" allowfullscreen></iframe>
             <div class="caption">
               <h3>Thumbnail label</h3>
-              <p>A great placeholder image</p>
+              <p></p>
               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-<iframe  src="//www.youtube.com/embed/q3bGYljQ5Uw" frameborder="0" allowfullscreen></iframe>
+
             </div>
           </div>
         </div>
@@ -98,6 +98,7 @@
               <h3>Thumbnail label</h3>
               <p>A great placeholder image</p>
               <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/JwntNANJCOE" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
