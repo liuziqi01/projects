@@ -10,7 +10,7 @@ var app = express();
 // e.g. css or client side js files
 app.use(express.static(path.normalize(__dirname) + '/public'));
 
-var uristring = process.env.MONGOLAB_URL || "mongodb://heroku_app22274759:i3ej2am9mfgib70lfmtuvp2v2t@ds053778.mongolab.com:53778/heroku_app22274759";
+var uristring = process.env.MONGOLAB_URL;
 // Tell express to use its built in error handler
 app.use(express.errorHandler());
 
@@ -34,9 +34,9 @@ mongoose.connect(uristring, function(err, res){
 }
     else
     {
-	var port = Number(process.env.PORT || 8000;
+	var port = Number(process.env.PORT) || 8000;
 			  app.listen(port);
-console.log("App listening on port: " + port)
+			  console.log("App listening on port: " + port);
     }
 };
 
