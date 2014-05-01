@@ -34,7 +34,7 @@ mongoose.connect(uristring, function(err, res){
 }
     else
     {
-	var port = Number(process.env.PORT || 8000;
+	var port = Number(process.env.PORT) || 8000;
 			  app.listen(port);
 			  console.log("App listening on port: " + port);
     }
