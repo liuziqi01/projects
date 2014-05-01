@@ -8,10 +8,9 @@ var app = express();
 
 // Points Express to a folder where you keep static files
 // e.g. css or client side js files
-app.use(express.static(path.normalize(__dirname) + '/public'))
+app.use(express.static(path.normalize(__dirname) + '/public'));
 
-var uristring = process.env.MONGOLAB_URL || "mongodb://heroku_app22274759:i3ej2am9mfgib70lfmtuvp2v2t@ds053778.mongolab.com:53778/heroku_app22274759
-"
+var uristring = process.env.MONGOLAB_URL;
 // Tell express to use its built in error handler
 app.use(express.errorHandler());
 
